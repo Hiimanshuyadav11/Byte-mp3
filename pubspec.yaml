@@ -1,0 +1,29 @@
+name: music_player
+description: A Flutter project for basic music player.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: any
+  audioplayers: any
+  flutter_lints: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    -  assets/audio/song.mp3 
+    -  assets/audio/song2.mp3
+    -  assets/audio/Paaro.mp3
+    -  assets/audio/longtimenosee.mp3
+    -  assets/audio/tuhaikahan.mp3
